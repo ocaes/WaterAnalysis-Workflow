@@ -82,6 +82,7 @@ summary(model_turbidity)
 # Example: Linear regression of Conductivity on Depth
 model_conductivity <- lm(Conductivity_mS_m ~ Depth_m, data = data)
 summary(model_conductivity)
+plot(model_conductivity)
 
 # You can repeat the above code for other water quality parameters
 

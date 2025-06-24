@@ -107,7 +107,7 @@ summary(model_conductivity)
 library(GGally)
 
 # Select Depth and other numeric water quality parameters
-correlation_data <- data[, c("Depth_m", "Turbidity", "Conductivity_mS_m", "Ca_mg_l", "Mg_mg_l", "Cl_mg_l")]
+correlation_data <- data[, c("Depth_m", "Turbidity", "Conductivity_mS_m", "Ca_mg_l", "Mg_mg_l", "Cl_mg_l")] #You may comment this line as it is similar to line 63
 
 # Remove rows with any NA values in selected columns
 correlation_data <- na.omit(correlation_data)

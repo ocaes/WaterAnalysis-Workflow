@@ -1,4 +1,4 @@
-
+#Written by Tsitso Mafantiri using Manus and ChatGPT
 # Sample Data (manually transcribed from image)
 # Please replace this with your full dataset loaded from a CSV or Excel file
 # Example: data <- read.csv("your_data.csv")
